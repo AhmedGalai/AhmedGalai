@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @AhmedGalai
-- 👀 I’m interested in game developpement
+- 👀 I’m interested in software and game developpement
 - 🌱 I’m currently learning web programming with Python and JavaScript
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ... per Email on AhmedG369@gmail.com
