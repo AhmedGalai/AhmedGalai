@@ -1,0 +1,32 @@
+
+{% extends "main/layout.html" %}
+{% block title %} Index {% endblock %}
+{% block body %}
+	<section id="Intro">
+		<div class="left">
+			<h2> Hello! </h2>
+			<p> My name is Ahmed Galai and this is my online resume, you can follow this small introduction by clicking the <a class = "next" href="#Info">next</a> button!</p>
+		</div>
+		<div class="right">
+			<img src="static/main/images/biometric-photo.jpg" alt="Photo">
+		</div>
+	</section>
+	<section id = "Info">
+		<p>I was born on 17.03.1997 in Bizerte - Tunisia. I am very passionate about emerging technologies in all fields of science, especially in software & web development and semiconductor technologies. (Languages/hobbies, skills, ...)<a class = "next" href="#Education">next</a></p>
+	</section>
+	<section id = "Education">
+		<p>This section should be devided in 'Courses' (matlab/python/english/german) and 'main' (university...)<a class = "next" href="#Work">next</a></p>
+	</section>
+	<section id = "Work">
+		<p>Scientific research associate and other entries...<a class = "next" href="#Projects">next</a></p>
+	</section>
+	<section id = "Projects">
+		<p>Project entries containing github links and descriptions... (django projects, FEM parameter analysis, python chess ai, UI Components library, jupyter/dash, ...)<a class = "next" href="#Contact">next</a></p>
+	</section>
+	<section id = "Contact">
+		<p>contact links... the next button should go a general homepage or hint to the nav bar (QR Code languages button)!-- <div id= "react-link"class = "next" href="#Home"></div> --></p>
+	</section>
+	<!-- <div id ="Index">
+		
+	</div> -->
+{% endblock %}

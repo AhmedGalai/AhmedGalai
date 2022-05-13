@@ -1,0 +1,25 @@
+
+{% extends "main/layout.html" %}
+{% block title %} Projects {% endblock %}
+{% block body %}
+	<h2 class="title-header">In this page, you can check some of the Projects, in which I have participated or that I am currently working on</h2>
+	{% for project in projects %}
+	{% if project %}
+		<div class="project-card">
+			<img class = "project-thumbnail" src="">
+			<div class="project-description">
+				<strong class="project-title">{{ project.title }}</strong>
+				<p>{{ project.descripion }}</p>
+				<strong>Links: </strong>
+					<!-- <a href="">read more...</a> -->
+				{% for link in project.links %}
+					<!-- <a href="">read more...</a> -->
+				{% endfor %}
+			</div>
+		</div>
+	{% endif %}
+	{% endfor %}
+	<!-- <div id ="Index">
+		
+	</div> -->
+{% endblock %}
